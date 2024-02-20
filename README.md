@@ -31,6 +31,8 @@ ii. Scope Plane
 
 (e.g. colour schemes, layouts, images)
 
+(got ideas for website layouts using canva templates of websites- credit in teh credits section as well.)
+
 -Functionality requirments I wanted
 
 iii. Structural Plane
