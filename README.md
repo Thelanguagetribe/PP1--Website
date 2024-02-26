@@ -135,11 +135,20 @@ The details and steps taken to deploy the project
 ### Section 7: Testing
 W3C Validators & Bugs (DevTools)
 
+
 i. List the main issues/bugs and how you fixed them
 
 ii. List any issues/bugs that you couldn't fix and so left the feature/aspect/code out of the website
 
 iii. Links to view all testing documentation.
+
+1. Manual Testing
+
+2. Dev Tools Testing
+
+3. Validator Testing
+- HTML
+- CSS
 
 ### Section 8: Credits
 credit all of the code taken from other sections
