@@ -18,17 +18,26 @@
 
 <body>
     <header>
+        <nav>
+       <a href="index.html" aria-label="Landing Page">Home</a>
+        </nav>
+        <header>
         <div>
         <h2>Welcome to the Club</h2>
         <h3>You're details have been saved</h3>
         </div>
+        </header>
+
         <p>See a copy of your responses</p>
         <p> A confirmation email will be sent to your inbox with further instructions.</p>
-
-        <nav>
-            <a href="index.html" aria-label="Landing Page">Home</a>
-        </nav>
-    </header>
+        <script>
+            // Extract the URL parameter
+            var urlParams = new URLSearchParams(window.location.search);
+            var userInput = urlParams.get('userInput');
+    
+            // Display the result on the page
+            document.write("<p>User Input: " + userInput + "</p>");
+        </script>
 
     <footer>
         <span>

@@ -27,7 +27,35 @@
             <a href="index.html" aria-label="Landing Page">Home</a>
             <a href="recipeshome.html" aria-label="Recipes Menu Page">Recipes</a>
         </nav>
+        <br>
+        <br>
+
     </header>
+<form id="register">
+
+    <fieldset>
+        <div>
+        <label for="name-field">Name</label>
+    <input id="name-field" type="text" name="full_name" required/>
+        </div>
+        <div>
+            <label for="email-field">Email</label>
+            <input id="email-field" type="email" name="email" required>
+        </div>
+    </fieldset>
+    <br>
+    <br>
+    <div>
+        <input type="submit"/>
+        <input type="reset" value="reset form">
+    </div>
+</form>
+ <script>
+        function submitForm() {
+            var userInput = document.getElementById("name-field").value;
+            window.location.href = "result.html?userInput=" + encodeURIComponent(userInput);
+        }
+    </script>
     <footer>
         <span>
             <h2>Contact</h2>
