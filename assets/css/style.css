@@ -1,12 +1,42 @@
 /* Google fonts import */
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&display=swap');
 
+/* Asterisk wildcard selector to override default styles added by the browser */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* General Styles */
 body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* Generic project styles */
+    color: white
+}
+
+/* Header */
+header {
     background-color: gold;
     color: white;
-}
-header {
     position:absolute;
+}
+
+/* Main Content */
+main {
+    background-color: gold;
+    color: white
+    /* Main element to take up any surplus space to push footer down*/
+    display: flex;
+    flex: 1 0 auto;
+}
+
+/* Footer */
+footer{ 
+    background-color: gold;
+    color: white;
 }
 
 /*Hero section*/
@@ -16,13 +46,17 @@ header {
     background: url("../images/Hero\ Image\ 2.jpg") no-repeat center center/cover;
 }
 
-footer{
-
+/* Hero Image for Recipes Page*/
+#galleryhero {
+    height: 350px;
+    width: 100%;
+    background: url("../images/Hero\ image\ 7.jpg") no-repeat center center/cover;
 }
+
 
 /*Hero Image for Registration Page*/
 #registerhero {
     height: 350px;
     width: 100%;
-    background: url("../images/Sign\ Up\ Page-\ Image\ 1.jpg") no-repeat center center/cover;
+    background: url("../images/hero-image1.jpg") no-repeat center center/cover;
 }
