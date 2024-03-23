@@ -41,6 +41,31 @@ h1 {
     color: white;
 }
 
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+    list-style-type: none;
+}
+
+menu > li {
+    margin-bottom: 1em;
+}
+
+.active {
+    border-color: 1px solid gold;
+}
+
+/* Navbar styles with dropdown toggle*/
+nav {
+    position: absolute;
+    background-color: white;
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    box-shadow: 0 2px 2px gold;
+    display: none;
+}
+
 /* Main Content */
 main {
     background-color: gold;
