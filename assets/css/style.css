@@ -29,8 +29,16 @@ header {
     box-shadow: 0 2px 2px gold;
 }
 
+header a {
+    text-decoration: none;
+    color: white;
+}
+
 h1 {
     font-family:'Truculenta', Times, serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: white;
 }
 
 /* Main Content */
@@ -43,7 +51,7 @@ main {
 }
 
 /* Footer */
-footer{ 
+footer { 
     background-color: white;
     color: gold;
 }
