@@ -97,14 +97,6 @@ main {
     margin-top: 95px;
 }
 
-/* Footer */
-footer { 
-    background-color: white;
-    color: gold;
-    padding-top: 25px;
-    padding-bottom: 25px;
-}
-
 /*Hero section*/
 #hero {
     height: 600px;
@@ -126,4 +118,36 @@ footer {
     height: 600px;
     width: 100%;
     background: url("../images/Hero\ Image\ 6.jpg") no-repeat center center/cover;
+}
+
+/* Footer */
+footer { 
+    background-color: white;
+    color: gold;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+/* Media query: tablets and larger (768px and up) */
+@media screen and (min-width: 768px) {
+    /* Header */
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+    }
+
+    #menu {
+        display: flex;
+    }
+
+    #menu > li {
+        padding-left: 1rem;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
 }
