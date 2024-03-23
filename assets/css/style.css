@@ -20,9 +20,13 @@ body {
 
 /* Header */
 header {
-    background-color: gold;
-    color: white;
-    position:absolute;
+    background-color: white;
+    color: gold;
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0 2px 2px gold;
 }
 
 h1 {
@@ -32,7 +36,7 @@ h1 {
 /* Main Content */
 main {
     background-color: gold;
-    color: white
+    color: white;
     /* Main element to take up any surplus space to push footer down*/
     display: flex;
     flex: 1 0 auto;
@@ -40,8 +44,8 @@ main {
 
 /* Footer */
 footer{ 
-    background-color: gold;
-    color: white;
+    background-color: white;
+    color: gold;
 }
 
 /*Hero section*/
