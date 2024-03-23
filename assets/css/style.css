@@ -94,6 +94,7 @@ main {
     /* Main element to take up any surplus space to push footer down*/
     display: flex;
     flex: 1 0 auto;
+    margin-top: 95px;
 }
 
 /* Footer */
