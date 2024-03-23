@@ -22,23 +22,27 @@ body {
 header {
     background-color: white;
     color: gold;
-    padding: 0 1rem;
+    padding: 40px 1rem 20px;
     position: fixed;
     z-index: 99;
     width: 100%;
-    box-shadow: 0 2px 2px gold;
+    box-shadow: 0 1px 1px gold;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
 
 header a {
     text-decoration: none;
-    color: white;
+    color: gold;
 }
 
 h1 {
     font-family:'Truculenta', Times, serif;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: white;
+    color: gold;
+    text-align: center;
 }
 
 #menu {
@@ -49,7 +53,9 @@ h1 {
 
 menu > li {
     margin-bottom: 1em;
+    color: gold;
 }
+
 
 .active {
     border-bottom: 1px solid gold;
@@ -59,11 +65,17 @@ menu > li {
 nav {
     position: absolute;
     background-color: white;
+    color: gold;
     width: 100%;
     left: 0;
     padding: 0 1rem;
     box-shadow: 0 2px 2px gold;
     display: none;
+}
+
+/* Nav toggle */
+#nav-toggle:checked~nav {
+    display: block;
 }
 
 /* Main Content */
@@ -79,6 +91,8 @@ main {
 footer { 
     background-color: white;
     color: gold;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 
 /*Hero section*/
@@ -86,6 +100,7 @@ footer {
     height: 600px;
     width: 100%;
     background: url("../images/Hero\ Image\ 2.jpg") no-repeat center center/cover;
+
 }
 
 /* Hero Image for Recipes Page*/
