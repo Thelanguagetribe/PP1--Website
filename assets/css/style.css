@@ -52,7 +52,7 @@ menu > li {
 }
 
 .active {
-    border-color: 1px solid gold;
+    border-bottom: 1px solid gold;
 }
 
 /* Navbar styles with dropdown toggle*/
