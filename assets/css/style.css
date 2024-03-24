@@ -194,7 +194,6 @@ main {
     Width: 100%;
     background-image: url(../images/Hero\ Image\ 6.jpg);
     background-size: cover;
-    background-position: center;
     position: absolute;
     padding: 20px 10% 0 10%;
     display: flex;
@@ -262,7 +261,7 @@ footer {
 }
 
 /* Media query: thin phones like z-fold (280px and up) */
-@media screen and (min-width: 250px) {
+@media screen and (min-width: 280px) {
     #hero {
         height: 370px;
     }
@@ -295,6 +294,29 @@ footer {
         min-height: 150px;
         left: 10px;
     }
+    
+    /* Form */
+    #register {
+        background-position: center;
+        position: absolute;
+        height: 570px;
+    }
+
+    #registration-form {
+        max-width: 400px;
+        position: relative center;
+        min-height: 200px;
+        resize: vertical;
+    }
+
+    .text-input:hover {
+        border-color: #f1bc6b;
+    }
+
+    .register-button:hover {
+        background-color: whitesmoke;
+        color: gold;
+    }
 
 }
 
@@ -317,6 +339,30 @@ footer {
 
     .trailer-video {
         margin-top: 300px;
+}
+    /* Form */
+    #register {
+        background-position: center;
+        position: absolute;
+        height: 1150px;
+    }
+
+    #registration-form {
+        max-width: 400px;
+        position: relative center;
+        top: 2px;
+        bottom: 70px;
+    }
+
+    .text-input:hover {
+        border-color: #f1bc6b;
+    }
+
+    .register-button:hover {
+        background-color: whitesmoke;
+        color: gold;
+    }
+
 }
 
 /* Media query: tablets and larger (768px and up) */
@@ -361,7 +407,6 @@ footer {
         right: 60px;
     }
 
-
     /*Youtube embedded video */
     .trailer-video {
         margin-top: 350px;
@@ -394,7 +439,7 @@ footer {
     #register {
         background-position: center;
         position: absolute;
-        height: 450px;
+        height: 1050px;
     }
 
     #registration-form {
@@ -413,10 +458,6 @@ footer {
         color: gold;
     }
 
-    footer {
-        margin-top: 450px;
-    }
-
 }
 
 
@@ -431,6 +472,29 @@ footer {
         column-count: 4;
     }
     #gallery {
-        margin-top: 510px;
+        margin-top: 220px;
+    }
+
+    /* Form */
+    #register {
+        background-position: center;
+        position: absolute;
+        height: 1040px;
+    }
+
+    #registration-form {
+        max-width: 400px;
+        position: relative center;
+        top: 2px;
+        bottom: 70px;
+    }
+
+    .text-input:hover {
+        border-color: #f1bc6b;
+    }
+
+    .register-button:hover {
+        background-color: whitesmoke;
+        color: gold;
     }
 }
