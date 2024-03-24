@@ -188,13 +188,56 @@ main {
     line-height: 0;
 }
 
-/* Registration Page*/
+/* Registration Form*/
+#register {
+    height:600px;
+    Width: 100%;
+    background-image: url(../images/Hero\ Image\ 6.jpg);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    padding: 20px 10% 0 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
 
-/*Hero Image for Registration Page*/
-#registerhero {
-    height: 450px;
+#registration-form {
+    color: white;
+    font-weight: bold;
+    background-color: rgba(255, 215, 0, 0.7);
+    padding: 30px;
+    position: relative center;
+}
+
+#registration-form>h3 {
+    color: white;
+    margin-bottom: 20px;
+}
+
+.text-input {
+    background: transparent;
+    color: white;
     width: 100%;
-    background: url("../images/Hero\ Image\ 6.jpg") no-repeat center center/cover;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid white;
+    border-radius: 2px;
+    padding: 0 5px;
+}
+
+.register-button {
+    margin-top: 20px;
+    border: #ba970c;
+    border-radius: 2px;
+    padding: 15px 32px;
+    font-size: 100%;
+    font-weight: bold;
+    background-color: #E0C25D;
+    color: white;
+    display: block;
+    margin: 0 auto;
 }
 
 /* Footer */
@@ -346,6 +389,34 @@ footer {
         width: 30%;
         min-height: 150px;
     }
+
+    /* Form */
+    #register {
+        background-position: center;
+        position: absolute;
+        height: 450px;
+    }
+
+    #registration-form {
+        max-width: 400px;
+        position: relative center;
+        top: 2px;
+        bottom: 70px;
+    }
+
+    .text-input:hover {
+        border-color: #f1bc6b;
+    }
+
+    .register-button:hover {
+        background-color: whitesmoke;
+        color: gold;
+    }
+
+    footer {
+        margin-top: 450px;
+    }
+
 }
 
 
@@ -360,6 +431,6 @@ footer {
         column-count: 4;
     }
     #gallery {
-        margin-top: 250px;
+        margin-top: 510px;
     }
 }
