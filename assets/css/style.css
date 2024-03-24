@@ -143,9 +143,29 @@ main {
 
 /* Hero Image for Recipes Page*/
 #galleryhero {
-    height: 450px;
+    height: 350px;
     width: 100%;
     background: url("../images/Hero\ image\ 7.jpg") no-repeat center center/cover;
+    background-size: cover;
+    position: absolute;
+}
+
+#cover-text-recipes {
+    background-color: rgba(255, 215, 0, 0.8);
+    font-size: 110%;
+    color: white;
+    position: relative;
+    top: 50px;
+    left: 20px;
+    bottom: 50px;
+    text-align: center;
+    width: 30%;
+    min-height: 175px;
+    padding-top: 50px;
+    padding-left: 10px;
+    padding-bottom: 30px;
+    resize: vertical;
+    box-sizing: border-box;
 }
 
 
@@ -202,6 +222,24 @@ footer {
         resize: both;
         box-sizing: border-box;
     }
+
+    #cover-text-recipes {
+        background-color: rgba(255, 215, 0, 0.8);
+        font-size: 130%;
+        color: white;
+        position: relative;
+        top: 150px;
+        left: 50px;
+        bottom: 100px;
+        width: 80%;
+        min-height: 175px;
+        padding-top: 30px;
+        padding-left: 10px;
+        padding-bottom: 30px;
+        resize: vertical;
+        box-sizing: border-box;
+    }
+    
     .trailer-video {
         margin-top: 70px;
         margin-bottom: 10px;
