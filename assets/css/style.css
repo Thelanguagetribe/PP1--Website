@@ -107,29 +107,38 @@ main {
     height: 450px;
     width: 100%;
     background: url("../images/Hero\ Image\ 2.jpg") no-repeat center center/cover;
-    position: relative;
+    background-size: cover;
+    position: absolute;
 }
 
 #cover-text-home {
     background-color: rgba(255, 215, 0, 0.8);
     font-size: 130%;
     color: white;
-    position: absolute;
+    position: relative;
+    top: 150px;
+    left: 50px;
     bottom: 100px;
     width: 80%;
     min-height: 175px;
     padding-top: 30px;
     padding-left: 10px;
     padding-bottom: 30px;
+    resize: vertical;
+    box-sizing: border-box;
 }
 
 .trailer-video {
+    margin-top: 310px;
+    margin-bottom: 10px;
+    aspect-ratio: 16/9;
+    width: 80%;
+}
+
+.trailer-video-position {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 25px;
-    margin-bottom: 25px;
-    width: 100%;
 }
 
 /* Hero Image for Recipes Page*/
@@ -168,6 +177,40 @@ footer {
     padding: 5%;
 }
 
+/* Media query: thin phones like z-fold (280px and up) */
+@media screen and (min-width: 250px max-width: 445px) {
+    #hero {
+        height: 670px;
+        width: 100%;
+        background: url("../images/Hero\ Image\ 2.jpg") no-repeat center center/cover;
+        background-size: cover;
+        position: absolute;
+    }
+    #cover-text-home {
+        background-color: rgba(255, 215, 0, 0.8);
+        font-size: 130%;
+        color: white;
+        position: relative;
+        top: 150px;
+        left: 50px;
+        bottom: 100px;
+        width: 100%;
+        min-height: 100px;
+        padding-top: 30px;
+        padding-left: 10px;
+        padding-bottom: 30px;
+        resize: vertical;
+        box-sizing: border-box;
+    }
+    .trailer-video {
+        margin-top: 150px;
+        margin-bottom: 10px;
+        aspect-ratio: 16/9;
+        width: 80%;
+    }
+}
+
+
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
     /* Header */
@@ -205,10 +248,19 @@ footer {
 
     /* Hero */
     #cover-text-home {
-        width: 300px;
+        width: 500px;
         right: 60px;
     }
+
+    /*Youtube embedded video */
+    .trailer-video {
+        margin-top: 350px;
+        margin-bottom: 50px;
+        aspect-ratio: 16/9;
+        width: 80%;
+    }
 }
+
 
 /* Large devices (laptop & desktops, 992px and up) */
 @media screen and (min-width: 992px) {
