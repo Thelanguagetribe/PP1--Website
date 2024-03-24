@@ -228,8 +228,8 @@ footer {
     }
 
     .trailer-video {
-        margin-top: 250px;
-        margin-bottom: 10px;
+        margin-top: 280px;
+        margin-bottom: 50px;
         aspect-ratio: 16/9;
         width: 80%;
     }
@@ -239,7 +239,7 @@ footer {
     } 
 
     #gallery {
-        margin-top: 100px;
+        margin-top: 120px;
     }
 
     #cover-text-recipes {
@@ -259,8 +259,17 @@ footer {
     }
 
     #gallery {
-        margin-top: 270px;
+        margin-top: 180px;
     }
+
+    #cover-text-home {
+        font-size: 130%;
+        width: 500px;
+        right: 60px;
+    }
+
+    .trailer-video {
+        margin-top: 300px;
 }
 
 /* Media query: tablets and larger (768px and up) */
@@ -300,9 +309,11 @@ footer {
 
     /* Hero */
     #cover-text-home {
+        font-size: 130%;
         width: 500px;
         right: 60px;
     }
+
 
     /*Youtube embedded video */
     .trailer-video {
@@ -318,7 +329,7 @@ footer {
     }
 
     #gallery {
-        margin-top: 250px;
+        margin-top: 180px;
     }
 
     #galleryhero {
@@ -343,5 +354,8 @@ footer {
     /* Gallery */
     #photos {
         column-count: 4;
+    }
+    #gallery {
+        margin-top: 250px;
     }
 }
