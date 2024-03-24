@@ -180,6 +180,10 @@ main {
     line-height: 1em;
 }
 
+#photos img:hover {
+    filter: grayscale(100%);
+}
+
 #photos {
     line-height: 0;
 }
