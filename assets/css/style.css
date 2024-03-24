@@ -180,7 +180,7 @@ footer {
 /* Media query: thin phones like z-fold (280px and up) */
 @media screen and (min-width: 250px max-width: 445px) {
     #hero {
-        height: 670px;
+        height: 800px;
         width: 100%;
         background: url("../images/Hero\ Image\ 2.jpg") no-repeat center center/cover;
         background-size: cover;
@@ -188,22 +188,22 @@ footer {
     }
     #cover-text-home {
         background-color: rgba(255, 215, 0, 0.8);
-        font-size: 130%;
+        font-size: 80%;
         color: white;
         position: relative;
         top: 150px;
         left: 50px;
-        bottom: 100px;
+        bottom: 80px;
         width: 100%;
         min-height: 100px;
         padding-top: 30px;
         padding-left: 10px;
         padding-bottom: 30px;
-        resize: vertical;
+        resize: both;
         box-sizing: border-box;
     }
     .trailer-video {
-        margin-top: 150px;
+        margin-top: 70px;
         margin-bottom: 10px;
         aspect-ratio: 16/9;
         width: 80%;
