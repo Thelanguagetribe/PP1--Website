@@ -298,13 +298,13 @@ footer {
     /* Form */
     #register {
         background-position: center;
-        position: absolute;
+        position: relative;
         height: 570px;
     }
 
     #registration-form {
         max-width: 400px;
-        position: relative center;
+        position: relative;
         min-height: 200px;
         resize: vertical;
     }
@@ -343,13 +343,13 @@ footer {
     /* Form */
     #register {
         background-position: center;
-        position: absolute;
+        position: relative;
         height: 1150px;
     }
 
     #registration-form {
         max-width: 400px;
-        position: relative center;
+        position: relative;
         top: 2px;
         bottom: 70px;
     }
@@ -438,13 +438,13 @@ footer {
     /* Form */
     #register {
         background-position: center;
-        position: absolute;
+        position: relative;
         height: 1050px;
     }
 
     #registration-form {
         max-width: 400px;
-        position: relative center;
+        position: relative;
         top: 2px;
         bottom: 70px;
     }
@@ -478,13 +478,13 @@ footer {
     /* Form */
     #register {
         background-position: center;
-        position: absolute;
-        height: 1040px;
+        position: relative;
+        height: 900px;
     }
 
     #registration-form {
         max-width: 400px;
-        position: relative center;
+        position: relative;
         top: 2px;
         bottom: 70px;
     }
